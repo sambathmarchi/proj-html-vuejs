@@ -21,9 +21,12 @@ export default {
             <li v-for="NavItem in NavItems">{{ NavItem.name }} <i class="fa-solid fa-angle-down fa-2xs"></i></li>
         </ul>
         <a href="#"><img src="../assets/img/dark-logo.png" alt=""></a>
-        <a class="user-icon" href="#"><i class="fa-regular fa-circle-user fa-lg"></i></a>
-        <input type="text" placeholder="Search..." name="search">
-        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+        <ul>
+            <li><a class="user-icon" href="#"><i class="fa-regular fa-circle-user fa-lg"></i></a></li>
+            <li><button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+            <li><input type="text" placeholder="Search..." name="search"></li>
+        </ul>
     </div>
 </template>
 
@@ -35,7 +38,6 @@ export default {
     box-shadow: 0px 10px 30px #F5F1ED;
     justify-content: space-around;
     align-items: center;
-    padding: 0 7%;
 
     img {
         width: 150px;

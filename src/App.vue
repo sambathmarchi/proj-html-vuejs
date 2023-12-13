@@ -2,10 +2,17 @@
 
 import AppHeader from "./components/AppHeader.vue";
 import AppJumbo from "./components/AppJumbo.vue";
+import AppMain from "./components/AppMain.vue";
+import AppNumbers from "./components/AppNumbers.vue";
+import AppVideo from "./components/AppVideo.vue";
 
 export default {
   components: {
-    AppJumbo
+    AppHeader,
+    AppJumbo,
+    AppMain,
+    AppNumbers,
+    AppVideo,
   },
   data() {
     return {
@@ -17,9 +24,13 @@ export default {
 
 <template>
   <AppHeader />
+  <AppJumbo />
+  <AppMain />
+  <AppNumbers />
+  <AppVideo />
 
 </template>
 
-<style scoped>
+<style>
 
 </style>
