@@ -5,6 +5,7 @@ import AppJumbo from "./components/AppJumbo.vue";
 import AppMain from "./components/AppMain.vue";
 import AppNumbers from "./components/AppNumbers.vue";
 import AppVideo from "./components/AppVideo.vue";
+import AppCarousel1 from "./components/AppCarousel1.vue";
 
 export default {
   components: {
@@ -13,6 +14,7 @@ export default {
     AppMain,
     AppNumbers,
     AppVideo,
+    AppCarousel1,
   },
   data() {
     return {
@@ -28,6 +30,7 @@ export default {
   <AppMain />
   <AppNumbers />
   <AppVideo />
+  <AppCarousel1 />
 
 </template>
 

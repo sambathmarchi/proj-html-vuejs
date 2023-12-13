@@ -1,19 +1,5 @@
 <script>
-export default {
-    data() {
-        return {
-            sponsors: [
-                { path: 'src/assets/img/client-logo-01.png' },
-                { path: 'src/assets/img/client-logo-02.png' },
-                { path: 'src/assets/img/client-logo-03.png' },
-                { path: 'src/assets/img/client-logo-04.png' },
-                { path: 'src/assets/img/client-logo-05.png' },
-                { path: 'src/assets/img/client-logo-06.png' },
-                { path: 'src/assets/img/client-logo-07.png' },
-            ]
-        }
-    }
-}
+
 </script>
 
 <template>
