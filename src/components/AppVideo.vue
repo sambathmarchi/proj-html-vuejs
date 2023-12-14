@@ -24,10 +24,16 @@
     .videocont{
         display: flex;
         align-items: center;
-        width: 63%;
+        width: 70%;
     }
 
     .text2{
-        width: 40%;
+        width: 30%;
+        margin-left: 0px;
     }
+
+    a{
+        color: #20ad96;
+    }
+
 </style>

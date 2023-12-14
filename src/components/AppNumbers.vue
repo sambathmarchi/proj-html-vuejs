@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "AppCounter",
+  name: "AppNumbers",
   props: {
     counters: Array,
   },
@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="background-banner">
     <div class="container-big">
-      <div class="flex align-center">
+      <div class="ncont">
         <div v-for="counter in counters" :key="counter.targetNumber" class="card-counter" >
           <h4 class="counter-number">{{ counter.targetNumber }}</h4>
           <p>{{ counter.text }}</p>
@@ -24,15 +24,21 @@ export default {
 </template>
 
 <style scoped>
-.background-banner {
-  margin-top: 120px;
-  background-color: #faf8f6;
-  padding: 70px 0px 70px 0px;
+
+.background-banner{
+  margin-top: -100px;
+  margin-bottom: 300px;
+  width: 40%;
 }
+
 .card-counter {
   width: 25%;
   text-align: center;
 
+}
+
+.ncont{
+  display: flex;
 }
 .counter-number {
   font-size: 48px;

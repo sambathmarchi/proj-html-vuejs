@@ -6,6 +6,7 @@
     <div class="jumbo">
         <div class="jumbo-items">
             <div class="text">
+                <h4>Everything in Maxcoach</h4>
                 <h2><b>Learn about our Work Culture at MaxCoach</b></h2>
                 <p>
                     Spend some time to visit our website or head office and discover our current courses, enrollment procedure, and registration deadline. We're opening new classes every beginning of each month. 

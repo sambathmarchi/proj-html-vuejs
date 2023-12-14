@@ -8,7 +8,7 @@ export default {
                 { name: 'Courses' },
                 { name: 'Features' },
                 { name: 'Blog' },
-                { name: 'Shop' }
+                { name: 'Shop' },
             ]
         }
     }

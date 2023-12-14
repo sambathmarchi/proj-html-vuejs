@@ -15,6 +15,8 @@
 <style>
     .bg{
         background-image: url(../assets/img/home-3-hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 700px;
         width: 100%;
        color: white;
