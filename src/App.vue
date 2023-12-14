@@ -7,6 +7,12 @@ import AppNumbers from "./components/AppNumbers.vue";
 import AppVideo from "./components/AppVideo.vue";
 import AppCarousel1 from "./components/AppCarousel1.vue";
 import AppCarosel from "./components/Appcarosel.vue";
+import AppUndermain from "./components/AppUndermain.vue";
+import AppCards from "./components/AppCards.vue";
+import AppFooter from "./components/AppFooter.vue";
+
+
+
 
 export default {
   components: {
@@ -16,8 +22,11 @@ export default {
     AppNumbers,
     AppVideo,
     AppCarousel1,
-    Appcarosel,
-  },
+    AppCarosel,
+    AppUndermain,
+    AppCards,
+    AppFooter
+},
   data() {
     return {
       countersNum: [
@@ -53,7 +62,10 @@ export default {
   <AppNumbers :counters="countersNum"/>
   <AppVideo />
   <AppCarousel1 />
-  <Appcarosel />
+  <AppCarosel />
+  <AppUndermain />
+  <AppCards />
+  <AppFooter />
 
 </template>
 

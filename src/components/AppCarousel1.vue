@@ -63,12 +63,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <div class="view">
-        
-    </div>
-
+    </section> 
   </div>
+  
 
 </template>
 
